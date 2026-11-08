@@ -39,3 +39,4 @@ jobs:
     - name: Test CLI Audit Execution
       run: |
         ./packages/cli/bin/sdcu.js audit
+

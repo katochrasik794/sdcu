@@ -40,3 +40,4 @@ flowchart LR
 ## Traversal Modes
 * **BFS (Breadth-First Search)**: Used for wide architectural queries (`sdcu graph query "How is authentication handled?"`). Expands context outwards across connected modules within a token budget.
 * **DFS / Shortest Path**: Used for tracing a direct pipeline from user input to database mutations (`sdcu graph path RouteHandler DatabaseModel`).
+

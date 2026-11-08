@@ -197,3 +197,4 @@
   - Enforce readable, self-documenting code with meaningful naming.
   - Require architecture decision records (ADRs) and call-flow diagrams for non-trivial modules.
   - Use `sdcu graph explain <node>` to generate human-readable explanations of complex interactions.
+

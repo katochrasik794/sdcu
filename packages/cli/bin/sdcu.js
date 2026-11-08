@@ -19,3 +19,4 @@ const pythonProcess = spawn('python3', [pythonScript, ...args], {
 pythonProcess.on('close', (code) => {
   process.exit(code || 0);
 });
+

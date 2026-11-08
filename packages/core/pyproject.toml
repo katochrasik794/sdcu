@@ -17,3 +17,4 @@ dependencies = [
 
 [project.scripts]
 sdcu = "sdcu_core.cli:main"
+

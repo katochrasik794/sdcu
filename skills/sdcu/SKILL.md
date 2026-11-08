@@ -85,3 +85,4 @@ When working on any repository with `sdcu` installed:
 1. **Never guess dependencies**: Query the context graph (`sdcu graph query` or read `.sdcu/graph.json`).
 2. **Never commit security/scale flaws**: Check the proposed changes against the 20 checkpoints in `skills/sdcu-sd/references/20-checkpoints.md`.
 3. **Never write vibecoded UI**: Apply the 9 design passes in `skills/sdcu-u/SKILL.md` before finalizing frontend code.
+

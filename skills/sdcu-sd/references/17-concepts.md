@@ -97,3 +97,4 @@ A production-grade system requires deliberate trade-offs across these 17 foundat
 ## 17. Event-Driven Architecture (EDA)
 * **What it is**: A software architecture paradigm where decoupled components interact primarily by producing, detecting, and consuming asynchronous events.
 * **Patterns**: Event Notification, Event-Carried State Transfer, Event Sourcing (storing every state change as an immutable append-only event log), CQRS (Command Query Responsibility Segregation).
+

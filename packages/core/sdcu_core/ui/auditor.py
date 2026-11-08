@@ -104,3 +104,4 @@ class UIAuditor:
                     pass_name="Copy & Content",
                     remediation="Rewrite with punchy, concrete human language stating what the product actually does."
                 ))
+

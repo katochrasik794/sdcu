@@ -45,3 +45,4 @@ Run `/sdcu-sd` whenever:
    - **Vulnerabilities Found** (Ranked by Severity: Critical, High, Medium)
    - **Architectural Bottlenecks** (Scaling limits, pool exhaustion risks)
    - **Remediation Code & Drop-In Diff**
+

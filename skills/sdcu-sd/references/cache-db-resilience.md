@@ -100,3 +100,4 @@ Clients (10,000 req/s) ──X [ Redis Crashed / Miss ]
     1. Immediately return the stale value to the user (0ms wait).
     2. Asynchronously fire a single background worker to refresh the DB and update Redis.
   - If Redis fails, return stale memory snapshot or fallback rather than cascading to DB failure.
+
