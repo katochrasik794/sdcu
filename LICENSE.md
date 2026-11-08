@@ -55,3 +55,4 @@ SDCU gratefully builds upon and vendors principles and code from the following o
 * ✅ **Free for Commercial & Non-Commercial Use**
 * ✅ **Modification, Forking, and Redistribution Permitted**
 * ✅ **No Royalty or Usage Fees Required**
+
