@@ -1,0 +1,33 @@
+name: Bug Report
+description: File a bug report for SDCU
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting an issue with SDCU!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what went wrong.
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: SDCU Module
+      options:
+        - "SD (System Design & Linter)"
+        - "C (Context Graph & AST)"
+        - "U (UI Craft & Auditor)"
+        - "CLI / Installer"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps or commands to reproduce the behavior.
+    validations:
+      required: true
