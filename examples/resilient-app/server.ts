@@ -42,3 +42,4 @@ app.get('/api/product/:id', async (req, res) => {
 
   res.json(data);
 });
+

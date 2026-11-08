@@ -32,3 +32,4 @@ app.post('/api/cache-data', async (req, res) => {
   // redis.set("hot_key", "data", 3600); // exactly 1 hour, detonates all at once!
   res.json({ ok: true });
 });
+
