@@ -1,0 +1,27 @@
+{
+  "name": "sdcu",
+  "version": "0.1.0",
+  "description": "SDCU: System Design, Code Context Graph, and UI Craft Suite for AI Coders",
+  "main": "dist/index.js",
+  "bin": {
+    "sdcu": "./bin/sdcu.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "keywords": [
+    "system-design",
+    "graphify",
+    "unslop",
+    "ai-coding",
+    "context-graph",
+    "architecture",
+    "resilience",
+    "singleflight",
+    "circuit-breaker"
+  ],
+  "author": "SDCU Contributors",
+  "license": "MIT"
+}

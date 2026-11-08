@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdcu"
+version = "0.1.0"
+description = "SDCU: System Design, Code Context Graph, and UI Craft Suite for AI Coding Agents"
+readme = "README.md"
+authors = [{ name = "SDCU Open Source Contributors" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "networkx>=3.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+sdcu = "sdcu_core.cli:main"
