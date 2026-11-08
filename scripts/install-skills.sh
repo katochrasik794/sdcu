@@ -64,3 +64,4 @@ esac
 echo "=================================================="
 echo "Installation complete! Try running /sdcu in chat."
 echo "=================================================="
+

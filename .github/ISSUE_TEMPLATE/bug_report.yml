@@ -31,3 +31,4 @@ body:
       description: Steps or commands to reproduce the behavior.
     validations:
       required: true
+
