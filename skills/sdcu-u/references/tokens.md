@@ -132,4 +132,4 @@ One easing curve for everything, `cubic-bezier(0.22, 1, 0.36, 1)`.
 
 ---
 
-Part of unslop by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), CC BY 4.0. Keep this credit in copies and adaptations.
+Part of the SDCU UI Craft Module.

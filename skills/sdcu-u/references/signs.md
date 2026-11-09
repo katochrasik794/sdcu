@@ -40,7 +40,7 @@ Go through every group and note each sign you find with where it lives. Each lin
 
 ## Copy
 
-- Greeting headlines, like `Welcome back, Damir! 👋` → the page or period as the title
+- Greeting headlines, like `Welcome back, Alex! 👋` → the page or period as the title
 - Exclamation marks and `!!` → plain statement
 - Changes without a reference, like `+12%!!` or `3 less!!` → `+12% vs last month`, `3 fewer vs last month`
 - Wordy placeholders, like `Search anything...` → `Search`
@@ -100,4 +100,4 @@ These are not slop, but they are what a cleaned up screen falls back to when nob
 
 ---
 
-Part of unslop by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), CC BY 4.0. Keep this credit in copies and adaptations.
+Part of the SDCU UI Craft Module.

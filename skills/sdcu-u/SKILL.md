@@ -2,16 +2,14 @@
 name: sdcu-u
 description: "UI Craft & Unslopping Engine (SDCU UI module). Strips away vibecoded AI slop (purple gradients, neon glows, emoji spam badges, inconsistent rhythm) and redesigns interfaces across 9 deliberate passes: spacing, color, icons, copy, type, layout, details, visuals, and motion. Supports React, Tailwind, Next.js, and HTML/CSS."
 trigger: /sdcu-u
-license: CC-BY-4.0
+license: MIT
 metadata:
-  author: Damir Sokolovsky & SDCU Contributors
-  upstream: https://github.com/heydamir/unslop
+  author: SDCU Contributors
 ---
 
 # /sdcu-u: UI Craft & Unslopping Engine
 
 The **UI (U)** module transforms generic, AI-vibecoded interfaces into bespoke, production-grade product designs.
-*(Based on the unslopping craft principles pioneered by Damir Sokolovsky, CC BY 4.0)*
 
 Vibecoded UI fails in the same predictable ways. Every surface glows, every label has an emoji, spacing is whatever the model typed that day, and the copy shouts. Unslopping fixes the craft and keeps the product. The features, content and order of sections stay. What changes is that every size, color, word and image becomes deliberate.
 
@@ -104,7 +102,7 @@ If the product already has a real brand, like a logo file, a color or a typeface
 
 - Headlines say what the product does for whom, in plain words, so they could not fit another product. Use the facts already on the page and do not invent new ones.
 - No exclamation marks in interface text, and never `!!`.
-- No greeting headlines like `Welcome back, Damir! 👋`. The title names the context, like the page name or the period, for example `October 2026`.
+- No greeting headlines like `Welcome back, Alex! 👋`. The title names the context, like the page name or the period, for example `October 2026`.
 - Short labels. `Search`, not `Search anything...`.
 - A change says what it compares to, like `+12% vs last month` or `3 fewer vs last month`.
 - Headlines, subheads, labels, buttons and captions end without a period. Only paragraphs of several sentences keep their periods.
@@ -194,7 +192,7 @@ It adds a few minutes, so make it only when the user wants it.
    - Gradients, glows and washes: put them on their own layer and fade its `opacity` to 0, with the solid color underneath changing. Gradient text goes on the `.from` span only, never on the swap or its parent, because a text clip also catches the hidden new text.
    - Pills: write their radius as half the height, like `23px`, not `9999px`, or the corner only changes in the last frame.
    - Use swaps sparingly, only where the words change, at most eight in a story. Twenty swaps blurring at once read as a cut between two pictures, which is exactly what the video must not look like. Weight, size, tracking and color changes tween on their own, so they never need a swap. A new font family switches directly in its step, without swaps.
-   - Text that changes, a new font family, an emoji that becomes an icon: `<span class="swap" data-at="3"><span class="from">Welcome back, Damir! 👋</span><span class="to">October 2026</span></span>`. At step 3 the old part blurs out and the new one rolls in.
+   - Text that changes, a new font family, an emoji that becomes an icon: `<span class="swap" data-at="3"><span class="from">Welcome back, Alex! 👋</span><span class="to">October 2026</span></span>`. At step 3 the old part blurs out and the new one rolls in.
    - Emoji that become icons: put the new icon next to the emoji inside the same box, both absolutely stacked, and crossfade their `opacity` in the step. That is not a swap and does not count toward the limit.
    - Things that disappear, like a `New ✨` badge: `data-out="2"` collapses them at step 2.
    - Things that appear, like a legend: `data-in="4"` fades them in at step 4. Reserve their space so nothing jumps.
@@ -205,7 +203,7 @@ It adds a few minutes, so make it only when the user wants it.
 6. **Only the screen and its background.** The video shows the story page as it is, with no extra window, border or shadow around it, so the page's own background fills the frame and the screen is the only box. If the screen sits in a window that grows to desktop proportions, anchor it to the left in the story so it widens to the right instead of gliding sideways. The story page renders 1440 wide and at least 900 tall, so do not size things from `100vh`, and keep `position: fixed` for background layers only.
 7. **Camera.** `<meta name="unslop-frame" content="0 0 960">` sets which part of the page fills the frame, as x, y and width in page pixels. Point x and y at the screen's own top left corner, so the frame starts with the page background around it, and crop close on where the most visible change happens, usually the sidebar or headline and the first cards.
 8. **Render.** `node <skill folder>/scripts/story.mjs unslop-story/story.html unslop-story.mp4`, square by default, `--wide` for 16:9. It needs Playwright and ffmpeg, so if either is missing, tell the user the one command that installs it. To watch it live first, run it with `--play` instead of the output path, and it loops in a browser window until closed. Pull a few frames with ffmpeg and look at them before you hand it over. Checking the story file and the video does not count toward the render limit of a run.
-9. **The story file is a presentation piece.** The clean result still ships as normal code in the project's own stack, without `.s` classes or story attributes. Every video carries a small `unslop by @heydamir` credit, as the license asks.
+9. **The story file is a presentation piece.** The clean result still ships as normal code in the project's own stack, without `.s` classes or story attributes. Every video carries a clean SDCU presentation frame.
 
 ## Do not
 

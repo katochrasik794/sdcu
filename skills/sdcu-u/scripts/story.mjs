@@ -92,7 +92,7 @@ const stage = `<!doctype html><html><head><meta charset="utf-8"><style>
 </style></head><body>
   <iframe id="page" src="/__story/${encodeURIComponent(file.slice(root.length + 1))}"></iframe>
   <div id="story-layer"></div>
-  <div class="credit">unslop by @heydamir</div>
+  <div class="credit">Crafted with SDCU</div>
   <script>
     window.__stage = { conf: { scale: ${scale}, x: ${left}, y: ${top} } };
   </script>

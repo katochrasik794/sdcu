@@ -196,9 +196,7 @@ SDCU comes with production-grade TypeScript implementations ready to drop into y
 
 ---
 
-## 📄 License & Attribution
+## 📄 License
 
 SDCU is free and open-source software licensed under the **[MIT License](LICENSE.md)**.
-
-* **Context Graph Engine** builds on [`graphify`](https://github.com/safishamsi/graphify) by Safi Shamsi (MIT License).
-* **UI Craft Engine** builds on [`unslop`](https://github.com/heydamir/unslop) by Damir Sokolovsky (Creative Commons Attribution 4.0 International - CC BY 4.0).
+Free for all developers, commercial and personal use.

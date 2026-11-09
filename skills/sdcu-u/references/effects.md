@@ -110,4 +110,4 @@ These effects broke on weak laptops before, so keep to these rules.
 
 ---
 
-Part of unslop by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), CC BY 4.0. Keep this credit in copies and adaptations.
+Part of the SDCU UI Craft Module.

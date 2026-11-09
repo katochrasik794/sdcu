@@ -1,6 +1,6 @@
 # References
 
-Finished screens by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)). Look at them before the Visuals pass. Take their qualities, never their subject, palette or layout, so every product still gets its own screen. `unslop-dashboard-after` is the finished version of `examples/dashboard.html`, so when you unslop that example, find your own answer instead of rebuilding it.
+Finished reference screens. Look at them before the Visuals pass. Take their qualities, never their subject, palette or layout, so every product still gets its own screen.
 
 | File | What it shows | Why it works |
 | --- | --- | --- |
@@ -14,4 +14,4 @@ What they share: one bright element per screen, quiet chrome around it, a visual
 
 ---
 
-Part of unslop by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), CC BY 4.0. Keep this credit in copies and adaptations.
+Part of the SDCU UI Craft Module.

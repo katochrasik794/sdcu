@@ -1,10 +1,6 @@
-# Open-Source Licenses & Attributions
+# SDCU License
 
-SDCU is free, open-source software licensed under permissive open-source terms.
-
----
-
-## 1. SDCU Core License (MIT)
+SDCU is free, open-source software licensed under the **MIT License**.
 
 ```
 MIT License
@@ -32,27 +28,7 @@ SOFTWARE.
 
 ---
 
-## 2. Upstream Open-Source Attributions
-
-SDCU gratefully builds upon and vendors principles and code from the following open-source projects:
-
-### Graphify (Context Graph & AST Indexing Engine)
-* **Author**: Safi Shamsi ([@safishamsi](https://github.com/safishamsi))
-* **Repository**: [https://github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)
-* **License**: **MIT License**
-* **Summary**: Turn codebases and documents into queryable knowledge graphs with community detection, god-node scoring, and GraphRAG.
-
-### Unslop (UI Craft & Redline Review Engine)
-* **Author**: Damir Sokolovsky ([@heydamir](https://x.com/heydamir))
-* **Repository**: [https://github.com/heydamir/unslop](https://github.com/heydamir/unslop)
-* **License**: **Creative Commons Attribution 4.0 International (CC BY 4.0)**
-* **Summary**: A structured 9-pass design framework and audit methodology for transforming vibecoded AI interfaces into bespoke, crafted products.
-* **License Text**: You are free to share and adapt this material under the condition that appropriate credit is given. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
-
----
-
 ## Summary of Rights
 * ✅ **Free for Commercial & Non-Commercial Use**
 * ✅ **Modification, Forking, and Redistribution Permitted**
 * ✅ **No Royalty or Usage Fees Required**
-
